@@ -26,3 +26,10 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: textarea
+  label: Teste
+  name: teste
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
